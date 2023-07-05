@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
-
+// 吃饭睡觉打豆豆
 public class Main {
     private static List<Book> LIST;
     private final static String path = "/Users/haonan/IdeaProjects/study/src/com/test/study/J119/data.dat";
