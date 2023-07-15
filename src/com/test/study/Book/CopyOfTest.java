@@ -1,10 +1,6 @@
 package com.test.study.Book;
-
-import jdk.jfr.internal.OldObjectSample;
-
 import java.lang.reflect.Array;
 import java.util.Arrays;
-
 public class CopyOfTest {
     public static void main(String[] args) {
         String[] a = {"Tom", "Dick", "Harry"};

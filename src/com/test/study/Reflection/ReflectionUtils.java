@@ -1,6 +1,6 @@
 package com.test.study.Reflection;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 import static java.lang.Class.forName;
 
 public class ReflectionUtils {
-    @Test
+//    @Test
     public void api_02() throws ClassNotFoundException {
         Class<?> cls = forName("com.test.study.Reflection.Person1");
         // 获取该类的所有属性
@@ -47,7 +47,7 @@ public class ReflectionUtils {
         }
     }
 
-    @Test
+//    @Test
     public void api_01() throws ClassNotFoundException {
         Class<?> cls = forName("com.test.study.Reflection.Person1");
         // 获取类名
